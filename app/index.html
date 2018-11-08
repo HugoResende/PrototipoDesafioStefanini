@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Principal</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesimg.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+        <div >
+                <nav class="navbar navbar-default">
+                 <div class="container-fluid">
+                   <div class="navbar-header">
+                     <a class="navbar-brand" href="index.html">Home</a>
+                   </div>
+                   <ul class="nav navbar-nav">
+                     <li> <a  href="cadastro.html">Cadastrar</a></li>
+                     <li><a  href="consulta.html">consultar</a></li>
+                   </ul>
+                   <router-outlet></router-outlet>
+                 </div>
+                </nav>
+                </div>
+    <div class="containerInicio">
+        <h1 class="text-center TituloPagina"> Portal Livros</h1>
+
+    </div>
+    <div class="imagem1">
+        <img class="imagem1" src="../app/img/Livros.jpg" alt="livro1">
+    </div>
+
+
+    <!--  <img src="..\app\img\livros.jpg" alt="livro1">-->
+
+
+
+    <div id="mensagem">
+       
+        <blockquote>
+        <h3 class="slogan1" > " Um livro e como uma janela. Quem não o lê, é como alguém que ficou distante da janela e só pode ver uma pequena parte da paisagem."</h3>
+        </blockquote>
+        <h2 class="slogan"> Você conectado com à Literatura! </h2></br></br>
+        
+    </div>
+
+    
+
+
+    <br>
+    <br>
+
+    <script src="js/models/cadastramento.js"></script>
+    <script src="js/app.js"></script>
+    <footer> &copy; Hugo Resende </footer>
+
+</body>
+
+</html>
